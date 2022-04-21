@@ -77,6 +77,7 @@ button {
   padding: 2rem;
   color: white;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -93,4 +94,12 @@ button:hover {
 
 #reset_timer {
   background-color: #ff9f1a;
+}
+
+.time {
+  background-color: #2c3e50;
+  color: var(--white);
+  padding: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
 }
