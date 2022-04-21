@@ -1,0 +1,96 @@
+/* Poppins */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"); */
+
+/* Space Mono */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+/* Work Sans */
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"); */
+
+/* Roboto */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: 'Work Sans', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Space Mono", monospace;
+  background-color: #ecf0f1;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper p {
+  font-size: 5rem;
+  letter-spacing: -1px;
+}
+
+.time_btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#start {
+  background-color: #3ae374;
+}
+
+#stop {
+  background-color: #ff3838;
+}
+
+#reset_timer {
+  background-color: #ff9f1a;
+}
